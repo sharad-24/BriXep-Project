@@ -623,86 +623,103 @@ body:after {
 
 
 
- /*SHUBHANKAR SHARMA */
+/*SHUBHANKAR SHARMA */
+
 .bgimg{
-    opacity: 0.2;
-    object-fit: cover;
-    height: 40vw;
-    overflow: hidden;
+  opacity: 0.1;
+  object-fit: cover;
+  object-position: center;
+  height: 40vw;
+  overflow: hidden;
 }
 .cdh1 h1{
-    color: #006284;
-    margin-left: 8vw;
-    margin-top: 8.4vw;
-    font-weight: bolder;
-    font-family: cursive;
-    text-align: left;
-    font-size: 3.3vw;
+  color: #006284;
+  margin-left: 8vw;
+  margin-top: 8.4vw;
+  font-weight: bolder;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 3.3vw;
 }
 .cdpara{
-    color: #006284;
-    margin-right: 10vw;
-    margin-top: 7vw;
-    font-size: 1.6vw;
-    font-weight: bolder;
-    font-family: cursive;
-    text-align: left;
-    margin-bottom: 0vw;
+  color: #006284;
+  margin-right: 8vw;
+  margin-top: 7.2vw;
+  font-size: 1.5vw;
+  font-weight: bolder;
+  font-family: sans-serif;
+  text-align: left;
+  margin-bottom: 2vw;
 }
 .but1{
-    width: 23vw;
-    text-align: center;
-    margin-top: 1vw;
-    color: #2db1fe;
-    margin-right: 10vw;
-    font-size: 1.6vw;
-    font-weight: bolder;
-    font-family: cursive;
-    padding: 0;
-    border: 3px solid #2db1fe;
-    border-radius: 8px;
+  width: 23vw;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 0;
+  color: #2db1fe;
+  margin-right: 10vw;
+  font-size: 1.6vw;
+  font-weight: bolder;
+  font-family: sans-serif;
+  padding: 0;
+  border: 3px solid #2db1fe;
+  border-radius: 17px;
 }
 
 .cont{
-    background-color: #006284;
+  background-color: #006284;
 }
 
 
 
 
 .headin{
-    color: white;
-    margin-left: 8vw;
-    margin-top: 3vw;
-    font-weight: bolder;
-    font-family: cursive;
-    text-align: left;
-    font-size: 3.3vw;;
+  color: white;
+  margin-left: 8vw;
+  margin-top: 3vw;
+  font-weight: bolder;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 3.3vw;;
 }
 .head_cont{
-    color: white;
-    margin-left: 8vw;
-    margin-right: 5vw;
-    font-size: 1.6vw;
-    font-weight: bolder;
-    font-family: cursive;
-    text-align: left;
-    margin-bottom: 3vw;
+  color: white;
+  margin-left: 8vw;
+  margin-right: 5vw;
+  font-size: 1.6vw;
+  font-weight: bolder;
+  font-family: sans-serif;
+  text-align: left;
+  margin-bottom: 3vw;
 }
 .Login{
-    margin-top: 8vw;
-    margin-left: 6vw;
+  margin-top: 8vw;
+  margin-left: 6vw;
+  margin-bottom: 8vw;
+
 }
 
 .box1{
-    width: 25vw;
-    height: 3.5vw;
-    margin-bottom: 2vw;
+  width: 25vw;
+  height: 3.5vw;
+  margin-bottom: 2vw;
 }
 input[type="text"]{
-    font-size: 1.4vw;
-    padding-left: 1.4vw;
+  font-size: 1.4vw;
+  padding-left: 1.4vw;
 }
+.join{
+  border: none;
+  background-color: #2db1fe;
+  width: 15vw;
+  padding: 1vw;
+  font-size: 1.4vw;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 6px;
+}
+
 
 
 
@@ -710,63 +727,83 @@ input[type="text"]{
 
 @media(max-width:767px)
 {
-    .cdh1 h1{
-        color: #006284;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 1vw;
-        margin-top: 0vw;
-        font-weight: bolder;
-        font-family: cursive;
-        text-align: center;
-        font-size: 3vw;
-    }
+  .contain{
+      padding-top: 1vw;
+  }
+  .bgimg{
+      height: 80vw;
+      overflow: hidden;
+  }
+  .cdh1 h1{
+      color: #006284;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1vw;
+      margin-top: 0.5vw;
+      font-weight: bolder;
+      font-family: sans-serif;
+      text-align: center;
+      font-size: 5.8vw;
+  }
 
-    .cdpara{
-        color: #006284;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1vw;
-        font-size: 1.6vw;
-        font-weight: bolder;
-        font-family: cursive;
-        text-align: center;
-        margin-bottom: 2vw;
-    }
-    .but1{
-        width: 23vw;
-        text-align: center;
-        margin-top: 1vw;
-        margin-bottom: 1vw;
-        color: #2db1fe;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 1.6vw;
-        font-weight: bolder;
-        font-family: cursive;
-        padding: 0;
-        border: 3px solid #2db1fe;
-        border-radius: 8px;
-    }
+  .cdpara{
+      color: #006284;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1vw;
+      font-size: 3.4vw;
+      font-weight: bolder;
+      font-family: sans-serif;
+      text-align: center;
+      margin-bottom: 3vw;
+  }
+  .but1{
+      width: 40vw;
+      text-align: center;
+      margin-top: 1vw;
+      margin-bottom: 2vw;
+      color: #2db1fe;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 2.8vw;
+      font-weight: bolder;
+      font-family: sans-serif;
+      padding: 0;
+      border: 1.5px solid #2db1fe;
+      border-radius: 8px;
+  }
 
-    .headin{
-        text-align: center;
-        margin-left: 0;
-        padding: 0;
-    }
-    .head_cont{
-        text-align: center;
-        margin-bottom: 0vw;
-    }
-    .Login{
-        margin: 1vw 0;
-        text-align: center;
-    }
-    .box1{
-        width: 25vw;
-        height: 3.5vw;
-        margin-bottom: 1vw;
-    }
+  .headin{
+      text-align: center;
+      font-size: 7.2vw;
+      margin-left: 0;
+      margin-top: 2vw;
+      margin-bottom: 1vw;
+      padding: 0;
+  }
+  .head_cont{
+      text-align: center;
+      margin-bottom: 0vw;
+      font-size: 3.3vw;
+  }
+  .Login{
+      margin: 1vw 0;
+      text-align: center;
+  }
+  .box1{
+      width: 50vw;
+      height: 5.5vw;
+      margin-bottom: 1.4vw;
+  }
+  input[type="text"]{
+      font-size: 2.5vw;
+      padding-left: 1.4vw;
+  }
+  .join{
+      width: 25vw;
+      font-size: 2.5vw;
+      margin-bottom: 4vw;
+  }
 }
 /*END SHUBHANKAR SHARMA */
 
