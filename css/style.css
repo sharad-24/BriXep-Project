@@ -808,4 +808,57 @@ input[type="text"]{
   }
 }
 /*END SHUBHANKAR SHARMA */
+/*Acceleration and event section*/
+.container1 {
+  position: relative;
+  font-family: cursive;
+}
+.text-block {
+  position: relative;
+  width: 50%;
+  bottom: 20px;
+  left: 20px;
+  background-color: black;
+  opacity: 0.75;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text-block1 {
+  position: relative;
+  width: 50%;
+  bottom: 20px;
+  left: 20px;
+  background-color: black;
+  opacity: 0.75;
+  color: white;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+{
+  box-sizing: border-box;
+}
 
+.columns {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.columnss {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.columnsss {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+
+/* Clearfix (clear floats) */
+.roww::after {
+  content: "";
+  clear: both;
+  display: table;
+}
