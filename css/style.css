@@ -722,6 +722,56 @@ input[type="text"]{
   border-radius: 6px;
 }
 
+.pad_0{
+  padding-left: 0;
+  padding-right: 0;
+}
+.about_head{
+  font-size: 4vw;
+  font-weight: 300;
+  color: #006284;
+}
+.shubh{
+  background-color: grey;
+  height: 15vw;
+  padding: 0;
+  margin: 2vw;    
+}
+.stu_head{
+  font-family: sans-serif;
+  font-size: 3vw;
+  margin-top: 4vw;
+  font-weight: bolder;
+  color: #006284;
+}
+.about_blog{
+  margin-top: 3vw;
+  width: 25vw;
+  margin: auto;
+  margin-top: 3vw;
+}
+.blog_img{
+  object-fit: cover;
+  width: 25vw;
+  height: 25vw;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog_p{
+  font-size: 1.5vw;
+  color: #2db1fe;
+}
+.blog_para{
+  font-size: 1.5vw;
+  color: #2db1fe;
+}
+.blog_icon{
+  color: #2db1fe;
+  padding: 0;
+  width: 30px;
+}
 
 
 
@@ -806,6 +856,77 @@ input[type="text"]{
       font-size: 2.5vw;
       margin-bottom: 4vw;
   }
+  .about_head{
+        font-size: 5vw;
+        font-weight: bolder;
+        color: #006284;
+        margin-top: 5vw;
+    }
+    .shubh{
+        height: 25vw;
+        margin: 2vw 8vw;    
+    }
+    .stu_head{
+        font-size: 7vw;
+        margin-top: 6vw;
+        text-align: center;
+    }
+    .about_blog{
+        margin-top: 3vw;
+        width: 70vw;
+
+    }
+    .blog_img{
+        width: 60vw;
+        height: 60vw;
+    }
+    .blog_p{
+        margin-top: 1vw;
+        font-size: 5vw;
+        text-align: center;
+        color: #2db1fe;
+
+    }
+    .blog_para{
+        font-size: 5vw;
+        text-align: center;
+    }
+    .about_head{
+      font-size: 5vw;
+      font-weight: bolder;
+      color: #006284;
+      margin-top: 5vw;
+  }
+  .shubh{
+      height: 25vw;
+      margin: 2vw 8vw;    
+  }
+  .stu_head{
+      font-size: 7vw;
+      margin-top: 6vw;
+      text-align: center;
+  }
+  .about_blog{
+      margin-top: 3vw;
+      width: 70vw;
+
+  }
+  .blog_img{
+      width: 60vw;
+      height: 60vw;
+  }
+  .blog_p{
+      margin-top: 1vw;
+      font-size: 5vw;
+      text-align: center;
+      color: #2db1fe;
+
+  }
+  .blog_para{
+      font-size: 5vw;
+      text-align: center;
+  }
+  
 }
 /*END SHUBHANKAR SHARMA */
 /*Acceleration and event section*/
