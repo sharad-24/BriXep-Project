@@ -862,3 +862,18 @@ input[type="text"]{
   clear: both;
   display: table;
 }
+
+/*our mentor section*/
+.testimonial {
+  max-width: 100%;
+  margin: 0 auto !important;
+  text-align: center; }
+  .testimonial blockquote {
+    font-size: 1.5rem;
+    font-style: italic; }
+  .testimonial figure img {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 50%; }
+    .testimonial-wrap .owl-nav {
+  display: none; }
