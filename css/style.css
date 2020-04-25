@@ -998,3 +998,32 @@ input[type="text"]{
     border-radius: 50%; }
     .testimonial-wrap .owl-nav {
   display: none; }
+
+
+/*incubation section*/
+
+  .dark_blue{
+  color: #006284;
+}
+.light_blue{
+  color: #2DB1FE; 
+}
+#block{
+  background-color: white;
+  width: 70%;
+  height: 200px;
+  margin-right: none;
+  padding-left: 10px;
+  display: inline-block;
+  box-shadow: 8px 10px;
+}
+.graycolor{
+  color: gray;
+  opacity: 0.75;
+}
+div.block{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
