@@ -772,12 +772,71 @@ input[type="text"]{
   padding: 0;
   width: 30px;
 }
+.consult_heading{
+    font-size: 4.5vw;
+    color: #006284;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    font-weight: bolder;
+}
+.consult_img{
+    object-fit: cover;
+    width: 36vw;
+    height: 36vw;
+    overflow: hidden;
+}
+.in_consult{
+    background-color: white;
+    width: 30vw;
+    margin-top: -5vw;
+    margin-left: 5.5vw;
+    padding-top: 0.5vw;
+    padding-left: 3vw;
+    box-shadow: grey;
+    box-shadow: 2vw 2vw 0.8vw rgba(0,0,0,0.2);
+}
+.consult_head{
+    color: #006284;
+    font-size: 2.5vw;
+}
+.consult_para{
+    font-size: 1.2vw;
+    color: #2db1fe;
+}
+.consult_p{
+    font-size: 1.2vw;
+    color: #1fa4f1;
+}
+
+
+.Crible_block{
+    margin: 0;
+    margin-top: 8vw;
+    background-color: rgba(221, 221, 221,0.4);
+}
+.Crible_marg{
+    margin-bottom: 0;
+    padding-top: 4vw;
+    padding-bottom: 2vw;
+}
+.Crible_para{
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    padding-left: 3vw;
+    font-size: 1.3vw;
+    color: #2db1fe;
+
+}
+.commu_icon{
+    color: #000;
+    font-size: 3vw;
+}
 
 
 
 
 
-@media(max-width:767px)
+@media(max-width:768px)
 {
   .contain{
       padding-top: 1vw;
@@ -926,7 +985,53 @@ input[type="text"]{
       font-size: 5vw;
       text-align: center;
   }
-  
+  .shubh_consult{
+        margin-bottom: 8vw;
+    }
+    .consult_heading{
+        font-size: 8vw;
+        margin-bottom: 5vw;
+        margin-top: 1vw;
+    }
+    .consult_img{
+        width: 75vw;
+        height: 75vw;
+    }
+    .in_consult{
+        width: 60vw;
+        margin-top: -15vw;
+        margin-left: 12vw;
+    }
+    .in_consult .consult_head{
+        font-size: 5vw;
+        padding-left: 2vw;
+    }
+    .consult_para{
+        font-size: 2.3vw;
+        padding-left: 2vw;
+        margin-bottom: 0;
+    }
+    .consult_p{
+        font-size: 3vw;
+        padding-left: 2vw;
+    }
+    .Crible_block{
+        margin: 0;
+        padding-bottom: 10vw;
+    }
+    .consult_head{
+        font-size: 7vw;
+    }
+    .Crible_para{
+        font-size: 4vw;
+        text-align: center;
+        margin: 3vw;
+    
+    }
+    .commu_icon{
+        font-size: 10vw;
+    }
+
 }
 /*END SHUBHANKAR SHARMA */
 /*Acceleration and event section*/
