@@ -294,6 +294,7 @@ body:after {
         display: inline-block;
         text-decoration: none !important; }
         .sharad{
+          position: absolute;
           color: white;
           border-radius: 6px;
           width: 200px;
