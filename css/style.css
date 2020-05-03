@@ -1139,3 +1139,135 @@ div.block{
   top: 0px;
   z-index: -1;
 }
+
+/*home section*/
+ h1{
+    text-align: center;
+    color: #007399;
+    font-family: "Comic Sans MS", cursive;
+  }
+
+  
+  /*Project 1 */
+
+  .p1{
+    color: #0077b3;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive;
+  }
+
+  .grid-container1{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: auto auto; 
+    justify-content: center;
+  }
+  .grid-item1{
+    margin: 10px;
+    float: left;
+    border: 1px solid #007399;
+    font-family: "Comic Sans MS", cursive;
+    color: #006699;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  /*Project 2*/
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  .mySlides {display:none}
+  .w3-left, .w3-right, .w3-badge {cursor:pointer}
+  .w3-badge {height:13px;width:13px;padding:0}
+
+    .section1{
+      color: #007399;
+      font-family: Verdana, sans-serif;
+      font-size: 30px;
+      padding: 20px;
+      text-align: center;
+    }
+    .button{
+      font-family: Arial, sans-serif;
+      background-color: #008CBA;
+      color: white;
+      height: 60px;
+      width: 120px;
+      font-size: 16px;
+      border-radius: 8px;
+    }
+    .grid-container2{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto;
+      justify-content: center;
+      padding: 10px;
+    }
+    .grid-item2{
+      padding: 20px;
+    }
+
+  /*Project 3*/
+
+  .p1{
+    color: #0077b3;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+  }
+
+  .p2{
+
+    color: #0077b3;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive;
+  }
+
+  .displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+  .grid-container3{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: auto; 
+    justify-content: center;
+  }
+  .grid-item3{
+    margin: 10px;
+    float: left;
+    font-family: "Comic Sans MS", cursive;
+    color: #006699;
+    padding: 10px;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  
+  @media (max-width: 768px){
+
+    /* Project1 */
+
+    .grid-container1{
+    grid-template-columns: 300px;
+    grid-template-rows: auto auto auto auto;
+    }
+
+    /*Project 2*/
+
+    .grid-container2{
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+      }
+
+    /* Project 3 */
+
+    .grid-container3{
+    grid-template-columns: 300px;
+    grid-template-rows: auto auto auto;
+    }
+
+  }
