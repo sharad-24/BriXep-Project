@@ -8,6 +8,9 @@ body {
   color: gray;
   font-weight: 400;
   font-size: 1rem; }
+  .center {
+    text-align: center;
+  }
 
 ::-moz-selection {
   background: white;
@@ -95,9 +98,10 @@ body:after {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
-.site-section {
-  padding: 2.5em 0; }
+.site-section {padding: 2.5em 0; }
+
   @media (min-width: 768px) {
+  
     .site-section {
       padding: 5em 0; } }
   .site-section.site-section-sm {
@@ -165,7 +169,8 @@ body:after {
     transform: scale(1.2); }
   @media (max-width: 991.98px) {
     .hover-bg-enlarge .bg-image-md-height {
-      height: 300px !important; } }
+      height: 300px !important; }
+     }
 
 .bg-image {
   background-size: cover;
