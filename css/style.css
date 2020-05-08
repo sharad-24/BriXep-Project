@@ -788,8 +788,8 @@ body:after {
 
 .headin{
   color: white;
+  padding-top: 5vw;
   margin-left: 8vw;
-  margin-top: 3vw;
   font-weight: bolder;
   font-family: Open Sans;
   text-align: left;
@@ -803,13 +803,10 @@ body:after {
   font-weight: bolder;
   font-family: Open Sans;
   text-align: left;
-  margin-bottom: 3vw;
+  padding-bottom: 5vw;
 }
 .Login{
-  margin-top: 8vw;
   margin-left: 6vw;
-  margin-bottom: 8vw;
-
 }
 
 .box1{
