@@ -1350,6 +1350,7 @@ div.block{
     border-radius: 20px;
     padding: 15px;
   }
+
   .grid-container4{
     display: grid;
     grid-template-columns: 600px 600px;
