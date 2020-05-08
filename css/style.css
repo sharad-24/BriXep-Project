@@ -128,7 +128,7 @@ a {
 
 h1, h2, h3, h4, h5,p,a,button,
 .h1, .h2, .h3, .h4, .h5 .p .a .button{
-  font-family: cursive; }
+  font-family: Open Sans; }
 
 .border-2 {
   border-width: 2px; }
@@ -190,7 +190,7 @@ body:after {
 .form-control {
   height: 43px;
   border-radius: 30px;
-  font-family: cursive; }
+  font-family: Open Sans; }
   .form-control:active, .form-control:focus {
     border-color: #007bff; }
   .form-control:hover, .form-control:active, .form-control:focus {
@@ -337,7 +337,7 @@ body:after {
       left: 0;
       font-size: 20px;
       top: -.3rem;
-      font-family: cursive;
+      font-family: Open Sans;
 
       content: "\e5ca";
       position: absolute; }
@@ -397,13 +397,13 @@ body:after {
         color: black;
         display: inline-block;
         text-decoration: none !important; }
-        .sharad{
+        .contactnow{
           position: absolute;
           color: white;
           border-radius: 6px;
           width: 200px;
         }
-.sharadd{
+.subscribe{
          
           color: white;
           border-radius: 6px;
@@ -428,7 +428,7 @@ body:after {
           -webkit-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-          font-family: cursive; }
+          font-family: Open Sans; }
       .site-navbar .site-navigation .site-menu .has-children .dropdown {
         visibility: hidden;
         opacity: 0;
@@ -588,7 +588,7 @@ body:after {
       .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
         font-size: 12px;
         z-index: 20;
-        font-family: cursive;
+        font-family: Open Sans;
         content: "\f078";
         position: absolute;
         top: 50%;
@@ -750,7 +750,7 @@ body:after {
   margin-left: 8vw;
   margin-top: 8.4vw;
   font-weight: bolder;
-  font-family: sans-serif;
+  font-family: Open Sans;
   text-align: left;
   font-size: 3.3vw;
 }
@@ -773,7 +773,7 @@ body:after {
   margin-right: 10vw;
   font-size: 1.6vw;
   font-weight: bolder;
-  font-family: sans-serif;
+  font-family: Open Sans;
   padding: 0;
   border: 3px solid #2db1fe;
   border-radius: 17px;
@@ -791,7 +791,7 @@ body:after {
   margin-left: 8vw;
   margin-top: 3vw;
   font-weight: bolder;
-  font-family: sans-serif;
+  font-family: Open Sans;
   text-align: left;
   font-size: 3.3vw;;
 }
@@ -801,7 +801,7 @@ body:after {
   margin-right: 5vw;
   font-size: 1.6vw;
   font-weight: bolder;
-  font-family: sans-serif;
+  font-family: Open Sans;
   text-align: left;
   margin-bottom: 3vw;
 }
@@ -829,7 +829,7 @@ input[type="text"]{
   font-size: 1.4vw;
   color: white;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: Open Sans;
   border-radius: 6px;
 }
 
@@ -849,7 +849,7 @@ input[type="text"]{
   margin: 2vw;    
 }
 .stu_head{
-  font-family: sans-serif;
+  font-family: Open Sans;
   font-size: 3vw;
   margin-top: 4vw;
   font-weight: bolder;
@@ -963,7 +963,7 @@ input[type="text"]{
       margin-bottom: 1vw;
       margin-top: 0.5vw;
       font-weight: bolder;
-      font-family: sans-serif;
+      font-family: Open Sans;
       text-align: center;
       font-size: 5.8vw;
   }
@@ -975,7 +975,7 @@ input[type="text"]{
       margin-top: 1vw;
       font-size: 3.4vw;
       font-weight: bolder;
-      font-family: sans-serif;
+      font-family: Open Sans;
       text-align: center;
       margin-bottom: 3vw;
   }
@@ -989,7 +989,7 @@ input[type="text"]{
       margin-right: auto;
       font-size: 2.8vw;
       font-weight: bolder;
-      font-family: sans-serif;
+      font-family: Open Sans;
       padding: 0;
       border: 1.5px solid #2db1fe;
       border-radius: 8px;
@@ -1248,7 +1248,7 @@ div.block{
  h1{
     text-align: center;
     color: #007399;
-    font-family: "Comic Sans MS", cursive;
+    font-family: Open Sans;
   }
 
   
@@ -1258,7 +1258,7 @@ div.block{
     color: #0077b3;
     text-align: center;
     font-size: 16px;
-    font-family: "Comic Sans MS", cursive;
+    font-family: Open Sans;
   }
 
   .grid-container1{
@@ -1271,7 +1271,7 @@ div.block{
     margin: 10px;
     float: left;
     border: 1px solid #007399;
-    font-family: "Comic Sans MS", cursive;
+    font-family: Open Sans;
     color: #006699;
     padding: 10px;
     border-radius: 20px;
@@ -1287,13 +1287,13 @@ div.block{
 
     .section1{
       color: #007399;
-      font-family: Verdana, sans-serif;
+      font-family: Open Sans;
       font-size: 30px;
       padding: 20px;
       text-align: center;
     }
     .button{
-      font-family: Arial, sans-serif;
+      font-family: Open Sans;
       background-color: #008CBA;
       color: white;
       height: 60px;
@@ -1318,7 +1318,7 @@ div.block{
     color: #0077b3;
     text-align: center;
     font-size: 18px;
-    font-family: "Comic Sans MS", cursive;
+    font-family: Open Sans;
     font-weight: bold;
   }
 
@@ -1327,7 +1327,7 @@ div.block{
     color: #0077b3;
     text-align: center;
     font-size: 16px;
-    font-family: "Comic Sans MS", cursive;
+    font-family: Open Sans;
   }
 
   .displayed {
@@ -1344,7 +1344,7 @@ div.block{
   .grid-item3{
     margin: 10px;
     float: left;
-    font-family: "Comic Sans MS", cursive;
+    font-family: Open Sans;
     color: #006699;
     padding: 10px;
     border-radius: 20px;
@@ -1375,3 +1375,37 @@ div.block{
     }
 
   }
+
+   .fa {
+border-radius: 100%;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
