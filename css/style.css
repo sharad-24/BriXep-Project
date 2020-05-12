@@ -1225,11 +1225,12 @@ input[type="text"]{
 #block{
   background-color: white;
   width: 70%;
-  height: 200px;
+  height: 220px;
   margin-right: none;
   padding-left: 10px;
   display: inline-block;
-  box-shadow: 8px 10px;
+  -webkit-box-shadow: 5px 5px 15px 2px #717171; 
+box-shadow: 5px 5px 15px 2px #717171;
 }
 .graycolor{
   color: gray;
@@ -1273,9 +1274,7 @@ div.block{
     justify-content: center;
   }
   .grid-item1{
-    margin: 10px;
     float: left;
-    border: 1px solid #007399;
     font-family: Open Sans;
     color: #006699;
     padding: 10px;
