@@ -962,7 +962,10 @@ input[type="text"]{
       text-align: center;
       font-size: 5.8vw;
   }
-
+  #navbarNav{
+    float: right;
+    margin: 0 10px 0 0;
+   }
   .cdpara{
       color: #006284;
       margin-left: auto;
@@ -1426,9 +1429,8 @@ border-radius: 100%;
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 100px;
     width: 100px;
-    outline: grey;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: gray;
     background-size: 100%, 100%;
     border-radius: 50%;
-    border: 1px solid black;
+    filter: invert(1);
 }
