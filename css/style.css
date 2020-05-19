@@ -939,6 +939,43 @@ input[type="text"]{
 }
 
 
+/* BLOCK AND ARTICLE*/
+
+.Blog_Article1{
+  background-color: #2DB1FE;
+  padding: 5vw 0;
+  margin-right: 0.5vw !important; 
+}
+.Blog_Article2{
+  background-color: #2DB1FE;
+  padding: 5vw 0;
+  margin-left: 0.5vw !important; 
+}
+.Blog_img{
+  width: 15vw;
+}
+.margin_content{
+  padding-left: 4vw;
+}
+.Blog_h2{
+  margin-top: 0;
+  font-size: 3vw;
+  color: #006284;
+  font-weight: bold;
+}
+.Blog_p{
+  font-size: 1.5vw;
+  color: white;
+}
+.Blog_a{
+  font-size: 1.5vw;
+  color: #006284;
+  font-weight: bold;
+}
+
+/* END OF BLOCK AND ARTICLE*/
+
+
 
 
 
@@ -1140,6 +1177,48 @@ input[type="text"]{
     .commu_icon{
         font-size: 10vw;
     }
+  
+  /* BLOG AND ARTICLE*/
+  
+    
+    .Blog_Article1{
+      width: 85%;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      margin-bottom: 2vw;
+    }
+    .Blog_Article2{
+      width: 85%;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      margin-bottom: 2vw;
+    }
+    .Blog_img{
+      width: 25vw;
+      display: block;
+      margin-left: auto ;
+      margin-right: auto ;
+    }
+    .Blog_a{
+      display: block;
+      text-align: center;
+      font-size: 3.5vw;
+    }
+    .Blog_h2{
+      text-align: center;
+      font-size: 5vw;
+      margin-top: 2vw;
+      margin-bottom: 1vw;
+    }
+    .Blog_p{
+      text-align: center;
+      font-size: 3.5vw;
+    }
+
+
+    /*END OF BLOG AND ARTICLE*/
+
+
 
 }
 /*END SHUBHANKAR SHARMA */
