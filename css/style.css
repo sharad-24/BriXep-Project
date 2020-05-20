@@ -1434,12 +1434,20 @@ div.block{
     padding: 15px;
   }
 
+@media screen and (min-width: 800px; max-width: 2546px;)
+{
+  .desktopview{
+    display: none !important;
+    } 
   .grid-container4{
+    display: none !important;
     display: grid;
+
     grid-template-columns: 600px 600px;
     grid-template-rows: auto; 
     justify-content: center;
   }
+
   .grid-item4{
     margin: 10px;
     float: left;
@@ -1449,6 +1457,31 @@ div.block{
     border-radius: 20px;
     padding: 15px;
   }
+  
+}
+@media screen and (min-width: 480px)
+{
+  .mobileview{
+    display: none !important;  
+  }
+  .grid-container5{
+    display:none !important;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: auto; 
+    justify-content: center;
+  }
+
+  .grid-item5{
+    margin: 10px;
+    float: left;
+    font-family: Open Sans;
+    color: #006699;
+    padding: 10px;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  
+}  
   
   
   @media (max-width: 768px){
