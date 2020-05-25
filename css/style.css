@@ -1434,7 +1434,7 @@ div.block{
     padding: 15px;
   }
 
-@media screen and (min-width: 800px; max-width: 2546px;)
+@media screen and (max-width: 800px )
 {
   .desktopview{
     display: none !important;
