@@ -293,6 +293,9 @@ body:after {
     z-index: 1; }
 
 @media (max-width: 991.98px) {
+  .large-view{
+    display: none;
+  }
   .img-md-fluid {
     max-width: 100%; } }
 
@@ -708,6 +711,9 @@ body:after {
   padding: 4em 0;
   background: #333333; }
   @media (min-width: 768px) {
+    .mobile-view{
+      display: none;
+    }
     .site-footer {
       padding: 8em 0; } }
   .site-footer .border-top {
@@ -1434,6 +1440,7 @@ div.block{
     padding: 15px;
   }
 
+
 @media screen and (max-width: 800px )
 {
   .desktopview{
@@ -1457,7 +1464,10 @@ div.block{
     border-radius: 20px;
     padding: 15px;
   }
-  
+  .grid-container44{
+    display: grid;
+    grid-template-rows: auto; 
+    justify-content: center;
 }
 @media screen and (min-width: 480px)
 {
