@@ -981,6 +981,10 @@ input[type="text"]{
 
 /* END OF BLOCK AND ARTICLE*/
 
+#mobilehdn{
+  display: none;
+}
+
 
 
 
@@ -1223,6 +1227,11 @@ input[type="text"]{
 
 
     /*END OF BLOG AND ARTICLE*/
+  
+  
+  #mobilehdn{
+      display: initial;
+    }
 
 
 
