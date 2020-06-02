@@ -677,7 +677,7 @@ body:after {
   border-radius: 100%;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 5px 1px;
 }
 
 .fa:hover {
@@ -702,7 +702,7 @@ body:after {
 
 
 
-.fa-instagram {
+.fa-google  {
   background: #125688;
   color: white;
 }
